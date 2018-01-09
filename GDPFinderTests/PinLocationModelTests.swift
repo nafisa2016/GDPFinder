@@ -1,5 +1,5 @@
 //
-//  GDPFinderTests.swift
+//  PinLocationModelTests.swift
 //  GDPFinderTests
 //
 //  Created by Nafisa Rahman on 1/9/18.
@@ -7,9 +7,10 @@
 //
 
 import XCTest
+import MapKit
 @testable import GDPFinder
 
-class GDPFinderTests: XCTestCase {
+class PinLocationDataTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,9 +22,17 @@ class GDPFinderTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testPinLocationData() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let myPinDataModel = PinLocationModel(title: "pin", coordinate: CLLocationCoordinate2D(latitude: -37.837529417944396, longitude: 144.984269057738))
+        
+        XCTAssertNotNil(myPinDataModel)
+        
+        XCTAssertEqual(myPinDataModel.title, "pin", "Titles are not equal")
+        
+        XCTAssertEqual(myPinDataModel.coordinate.latitude,  CLLocationCoordinate2D(latitude: -37.837529417944396, longitude: 144.984269057738).latitude, "latitudes are not equal")
     }
     
     func testPerformanceExample() {
@@ -34,3 +43,4 @@ class GDPFinderTests: XCTestCase {
     }
     
 }
+

@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C4FAACE348BB5787137785 /* Pods_GDPFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954A87AB0CA85F226FA8708 /* Pods_GDPFinderUITests.framework */; };
 		78379820200461DB0094A795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837981F200461DB0094A795 /* AppDelegate.swift */; };
 		78379822200461DB0094A795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379821200461DB0094A795 /* ViewController.swift */; };
 		78379825200461DB0094A795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78379823200461DB0094A795 /* Main.storyboard */; };
 		78379827200461DB0094A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78379826200461DB0094A795 /* Assets.xcassets */; };
 		7837982A200461DB0094A795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78379828200461DB0094A795 /* LaunchScreen.storyboard */; };
-		78379835200461DC0094A795 /* GDPFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379834200461DC0094A795 /* GDPFinderTests.swift */; };
 		78379840200461DC0094A795 /* GDPFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837983F200461DC0094A795 /* GDPFinderUITests.swift */; };
+		7837984E200462700094A795 /* FetchGDP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837984D200462700094A795 /* FetchGDP.swift */; };
+		78379850200462AD0094A795 /* HandleISOCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837984F200462AD0094A795 /* HandleISOCountry.swift */; };
+		783798532004630C0094A795 /* PinLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783798522004630C0094A795 /* PinLocationModel.swift */; };
+		78379856200463400094A795 /* PinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379855200463400094A795 /* PinViewModel.swift */; };
+		78379858200464540094A795 /* PinLocationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78379857200464540094A795 /* PinLocationModelTests.swift */; };
+		7837985A2004648F0094A795 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783798592004648F0094A795 /* ViewControllerTests.swift */; };
+		7837985C200464E40094A795 /* PinViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837985B200464E40094A795 /* PinViewModelTests.swift */; };
+		7837985E2004650C0094A795 /* FetchGDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7837985D2004650C0094A795 /* FetchGDPTests.swift */; };
+		7F180CCB4FED70A05BBD0AC7 /* Pods_GDPFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CC548D4977B492C8CE9042 /* Pods_GDPFinderTests.framework */; };
+		AA2453D130FE0720A8F49CB6 /* Pods_GDPFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487728786A5A0FA2BCC963F2 /* Pods_GDPFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002259779E52612E8496FD31 /* Pods-GDPFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinderTests/Pods-GDPFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21D2B8C0701F379DDBBEEFD1 /* Pods-GDPFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinderTests/Pods-GDPFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		26FA3DB2D0D9DA083684EA30 /* Pods-GDPFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinderUITests/Pods-GDPFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3954A87AB0CA85F226FA8708 /* Pods_GDPFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDPFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487728786A5A0FA2BCC963F2 /* Pods_GDPFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDPFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AC73850AF76F28FE3978B5 /* Pods-GDPFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinderUITests/Pods-GDPFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7837981C200461DB0094A795 /* GDPFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDPFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7837981F200461DB0094A795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78379821200461DB0094A795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +58,21 @@
 		78379829200461DB0094A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7837982B200461DB0094A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78379830200461DB0094A795 /* GDPFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78379834200461DC0094A795 /* GDPFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDPFinderTests.swift; sourceTree = "<group>"; };
 		78379836200461DC0094A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7837983B200461DC0094A795 /* GDPFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7837983F200461DC0094A795 /* GDPFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDPFinderUITests.swift; sourceTree = "<group>"; };
 		78379841200461DC0094A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7837984D200462700094A795 /* FetchGDP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGDP.swift; sourceTree = "<group>"; };
+		7837984F200462AD0094A795 /* HandleISOCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleISOCountry.swift; sourceTree = "<group>"; };
+		783798522004630C0094A795 /* PinLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLocationModel.swift; sourceTree = "<group>"; };
+		78379855200463400094A795 /* PinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModel.swift; sourceTree = "<group>"; };
+		78379857200464540094A795 /* PinLocationModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinLocationModelTests.swift; sourceTree = "<group>"; };
+		783798592004648F0094A795 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		7837985B200464E40094A795 /* PinViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModelTests.swift; sourceTree = "<group>"; };
+		7837985D2004650C0094A795 /* FetchGDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchGDPTests.swift; sourceTree = "<group>"; };
+		B9D7B4407A7FA265A7F7DAF2 /* Pods-GDPFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinder/Pods-GDPFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D73E02A8914F935F8B5759 /* Pods-GDPFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDPFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDPFinder/Pods-GDPFinder.release.xcconfig"; sourceTree = "<group>"; };
+		F0CC548D4977B492C8CE9042 /* Pods_GDPFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDPFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2453D130FE0720A8F49CB6 /* Pods_GDPFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F180CCB4FED70A05BBD0AC7 /* Pods_GDPFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4FAACE348BB5787137785 /* Pods_GDPFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4145E30301CFA88D6B56FE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487728786A5A0FA2BCC963F2 /* Pods_GDPFinder.framework */,
+				F0CC548D4977B492C8CE9042 /* Pods_GDPFinderTests.framework */,
+				3954A87AB0CA85F226FA8708 /* Pods_GDPFinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4E8FC2E10EC2CF14987D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7B4407A7FA265A7F7DAF2 /* Pods-GDPFinder.debug.xcconfig */,
+				C5D73E02A8914F935F8B5759 /* Pods-GDPFinder.release.xcconfig */,
+				002259779E52612E8496FD31 /* Pods-GDPFinderTests.debug.xcconfig */,
+				21D2B8C0701F379DDBBEEFD1 /* Pods-GDPFinderTests.release.xcconfig */,
+				26FA3DB2D0D9DA083684EA30 /* Pods-GDPFinderUITests.debug.xcconfig */,
+				77AC73850AF76F28FE3978B5 /* Pods-GDPFinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		78379813200461DB0094A795 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				78379833200461DB0094A795 /* GDPFinderTests */,
 				7837983E200461DC0094A795 /* GDPFinderUITests */,
 				7837981D200461DB0094A795 /* Products */,
+				6A4E8FC2E10EC2CF14987D84 /* Pods */,
+				4145E30301CFA88D6B56FE6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +157,9 @@
 				78379826200461DB0094A795 /* Assets.xcassets */,
 				78379828200461DB0094A795 /* LaunchScreen.storyboard */,
 				7837982B200461DB0094A795 /* Info.plist */,
+				78379851200462C70094A795 /* Networking */,
+				78379854200463150094A795 /* Model */,
+				78379855200463400094A795 /* PinViewModel.swift */,
 			);
 			path = GDPFinder;
 			sourceTree = "<group>";
@@ -110,8 +167,11 @@
 		78379833200461DB0094A795 /* GDPFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				78379834200461DC0094A795 /* GDPFinderTests.swift */,
 				78379836200461DC0094A795 /* Info.plist */,
+				78379857200464540094A795 /* PinLocationModelTests.swift */,
+				783798592004648F0094A795 /* ViewControllerTests.swift */,
+				7837985B200464E40094A795 /* PinViewModelTests.swift */,
+				7837985D2004650C0094A795 /* FetchGDPTests.swift */,
 			);
 			path = GDPFinderTests;
 			sourceTree = "<group>";
@@ -125,6 +185,23 @@
 			path = GDPFinderUITests;
 			sourceTree = "<group>";
 		};
+		78379851200462C70094A795 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7837984D200462700094A795 /* FetchGDP.swift */,
+				7837984F200462AD0094A795 /* HandleISOCountry.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		78379854200463150094A795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				783798522004630C0094A795 /* PinLocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78379844200461DC0094A795 /* Build configuration list for PBXNativeTarget "GDPFinder" */;
 			buildPhases = (
+				0144A0428E1DBDE15B5D088D /* [CP] Check Pods Manifest.lock */,
 				78379818200461DB0094A795 /* Sources */,
 				78379819200461DB0094A795 /* Frameworks */,
 				7837981A200461DB0094A795 /* Resources */,
+				FB3AD59AAE78C52585750493 /* [CP] Embed Pods Frameworks */,
+				8F7ED53A59CBE509224A904C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78379847200461DC0094A795 /* Build configuration list for PBXNativeTarget "GDPFinderTests" */;
 			buildPhases = (
+				152A3A36C50A31E2F839993B /* [CP] Check Pods Manifest.lock */,
 				7837982C200461DB0094A795 /* Sources */,
 				7837982D200461DB0094A795 /* Frameworks */,
 				7837982E200461DB0094A795 /* Resources */,
+				ED8E94E9ED456D3723F09B5D /* [CP] Embed Pods Frameworks */,
+				7A306170F36BBDCCDE6F05BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7837984A200461DC0094A795 /* Build configuration list for PBXNativeTarget "GDPFinderUITests" */;
 			buildPhases = (
+				34EC6BA16B0AE46B3950EE53 /* [CP] Check Pods Manifest.lock */,
 				78379837200461DC0094A795 /* Sources */,
 				78379838200461DC0094A795 /* Frameworks */,
 				78379839200461DC0094A795 /* Resources */,
+				84E2FF93C33A656D1982DDA0 /* [CP] Embed Pods Frameworks */,
+				C9E22B9F143E3EC6E75B30CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +283,7 @@
 					};
 					7837982F200461DB0094A795 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7837981B200461DB0094A795;
 					};
@@ -254,11 +341,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0144A0428E1DBDE15B5D088D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDPFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		152A3A36C50A31E2F839993B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDPFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34EC6BA16B0AE46B3950EE53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDPFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A306170F36BBDCCDE6F05BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinderTests/Pods-GDPFinderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E2FF93C33A656D1982DDA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinderUITests/Pods-GDPFinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7ED53A59CBE509224A904C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinder/Pods-GDPFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E22B9F143E3EC6E75B30CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinderUITests/Pods-GDPFinderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8E94E9ED456D3723F09B5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinderTests/Pods-GDPFinderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3AD59AAE78C52585750493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinder/Pods-GDPFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDPFinder/Pods-GDPFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78379818200461DB0094A795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783798532004630C0094A795 /* PinLocationModel.swift in Sources */,
+				78379850200462AD0094A795 /* HandleISOCountry.swift in Sources */,
+				78379856200463400094A795 /* PinViewModel.swift in Sources */,
+				7837984E200462700094A795 /* FetchGDP.swift in Sources */,
 				78379822200461DB0094A795 /* ViewController.swift in Sources */,
 				78379820200461DB0094A795 /* AppDelegate.swift in Sources */,
 			);
@@ -268,7 +509,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78379835200461DC0094A795 /* GDPFinderTests.swift in Sources */,
+				7837985A2004648F0094A795 /* ViewControllerTests.swift in Sources */,
+				7837985C200464E40094A795 /* PinViewModelTests.swift in Sources */,
+				7837985E2004650C0094A795 /* FetchGDPTests.swift in Sources */,
+				78379858200464540094A795 /* PinLocationModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +668,7 @@
 		};
 		78379845200461DC0094A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D7B4407A7FA265A7F7DAF2 /* Pods-GDPFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +684,7 @@
 		};
 		78379846200461DC0094A795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D73E02A8914F935F8B5759 /* Pods-GDPFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,15 +700,18 @@
 		};
 		78379848200461DC0094A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002259779E52612E8496FD31 /* Pods-GDPFinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42KMS8LBB5;
 				INFOPLIST_FILE = GDPFinderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nafisa.GDPFinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDPFinder.app/GDPFinder";
@@ -471,9 +720,11 @@
 		};
 		78379849200461DC0094A795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D2B8C0701F379DDBBEEFD1 /* Pods-GDPFinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42KMS8LBB5;
 				INFOPLIST_FILE = GDPFinderTests/Info.plist;
@@ -488,6 +739,7 @@
 		};
 		7837984B200461DC0094A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FA3DB2D0D9DA083684EA30 /* Pods-GDPFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +756,7 @@
 		};
 		7837984C200461DC0094A795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AC73850AF76F28FE3978B5 /* Pods-GDPFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
